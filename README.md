@@ -21,8 +21,8 @@ This project is an **end-to-end interactive web application** that provides **pe
 ---
 
 ## 🧱 Project Structure 
-📂 src
-┣ 📂 components
+** 📂 src **
+** ┣ 📂 components **
 ┃ ┣ 📄 data_ingestion.py # Loads and processes datasets
 ┃ ┣ 📄 data_transformation.py # Transforms data and computes utility matrices
 ┃ ┗ 📄 model_trainer.py # Builds recommendation models
@@ -94,11 +94,5 @@ python app.py
 4️⃣ Access the Web App
 Open your browser and visit:
 👉 http://localhost:5000
-
-📈 Recommendation Types
-Type	Description
-Collaborative	Suggests movies based on similar user preferences
-Content-Based	Recommends movies with similar genres
-Hybrid	Combines both collaborative and content-based approaches
 
 
